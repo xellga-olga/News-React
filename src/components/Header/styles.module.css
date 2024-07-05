@@ -1,11 +1,17 @@
 .header {
    display: flex;
+   justify-content: space-between;
+   align-items: center;
    width: 100%;
-   flex-direction: column;
-   gap: 12px;
    padding: 12px 14px;
    background-color: #fff;
    border-bottom: 1px solid #e8e8e8;
+}
+
+.titleContainer {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
 }
 
 .title {
@@ -26,4 +32,19 @@
 
 .react {
    color: #61dafb;
+}
+
+.credit {
+   font-size: 12px;
+   color: #666;
+   text-align: right;
+}
+
+.link {
+   color: #6f99cd;
+   text-decoration: none;
+}
+
+.link:hover {
+   text-decoration: underline;
 }
