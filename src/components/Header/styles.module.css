@@ -48,3 +48,19 @@
 .link:hover {
    text-decoration: underline;
 }
+
+@media (max-width: 425px) {
+   .header {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: start;
+   }
+
+   .credit {
+      padding: 20px 0;
+   }
+
+   .title {
+      font-size: 32px;
+   }
+}
